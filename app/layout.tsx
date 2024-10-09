@@ -37,7 +37,9 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          {children}
+          <div className="relative flex justify-center items-center w-screen p-8 h-dvh">
+            {children}
+          </div>
         </Providers>
       </body>
     </html>
