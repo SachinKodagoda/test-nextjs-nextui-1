@@ -44,7 +44,7 @@ export type SidebarProps = Omit<ListboxProps<SidebarItem>, "children"> & {
   onSelect?: (key: string) => void;
 };
 
-const Sidebar = React.forwardRef<HTMLElement, SidebarProps>(
+const SidebarItems = React.forwardRef<HTMLElement, SidebarProps>(
   (
     {
       items,
@@ -323,6 +323,6 @@ const Sidebar = React.forwardRef<HTMLElement, SidebarProps>(
   }
 );
 
-Sidebar.displayName = "Sidebar";
+SidebarItems.displayName = "Sidebar";
 
-export default Sidebar;
+export default SidebarItems;

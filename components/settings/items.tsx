@@ -1,7 +1,7 @@
 import { Chip } from "@nextui-org/react";
 import { Icon } from "@iconify/react";
 
-import { type SidebarItem } from "./sidebar";
+import { type SidebarItem } from "../sidebar/sidebar-items";
 
 /**
  * Please check the https://nextui.org/docs/guide/routing to have a seamless router integration
