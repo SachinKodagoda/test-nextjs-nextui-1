@@ -1,0 +1,20 @@
+.container {
+  background: gray;
+  display: grid;
+  transition: 150ms ease;
+  cursor: pointer;
+  background: green;
+  grid-template-rows: 1.5em 0fr;
+}
+
+.open {
+  grid-template-rows: 1.5em 1fr;
+}
+
+.close {
+  /* grid-template-rows: 1.5em 0fr; */
+}
+
+.hidden {
+  overflow: hidden;
+}

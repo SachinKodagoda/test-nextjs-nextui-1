@@ -1,9 +1,9 @@
-import { Navbar } from "@/components/navbar";
+import Btn from "@/components/new/button";
 
 export default function Test() {
   return (
     <div>
-      <Navbar />
+      <Btn />
     </div>
   );
 }
