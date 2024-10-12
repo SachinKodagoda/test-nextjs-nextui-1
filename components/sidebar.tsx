@@ -1,5 +1,5 @@
 "use client";
-import SidebarDrawer from "@/app/dashboard/sidebar-drawer";
+import SidebarDrawer from "./settings/sidebar-drawer";
 import {
   Avatar,
   Button,
@@ -10,10 +10,10 @@ import {
 import { useCallback, useState } from "react";
 import { useMediaQuery } from "usehooks-ts";
 import { cn } from "@nextui-org/react";
-import { AcmeIcon } from "@/app/dashboard/acme";
+import { AcmeIcon } from "./settings/acme";
 import { Icon } from "@iconify/react";
-import { items } from "@/app/dashboard/items";
-import Sidebar from "@/app/dashboard/sidebar";
+import { items } from "./settings/items";
+import Sidebar from "./settings/sidebar";
 
 export default function SideBar() {
   const [isCollapsed, setIsCollapsed] = useState(false);
