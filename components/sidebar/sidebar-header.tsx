@@ -1,6 +1,6 @@
 import { cn } from "@nextui-org/react";
 import { Icon } from "@iconify/react";
-import { AcmeIcon } from "../settings/acme";
+import { AcmeIcon } from "@/components/icons/acme";
 
 type TProps = {
   isCollapsed: boolean;
