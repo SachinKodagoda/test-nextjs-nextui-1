@@ -14,7 +14,7 @@ export default function Component() {
   // <Sidebar defaultSelectedKey="home" selectedKeys={[currentPath]} />
 
   return (
-    <div className="flex items-stretch gap-4">
+    <div className="flex items-stretch gap-4 w-screen h-screen">
       <SideBar />
       <SettingsComponent />
     </div>
